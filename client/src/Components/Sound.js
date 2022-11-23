@@ -11,7 +11,6 @@ const [playSound, setPlaySound] = useState([])
 const getSoundFunction = e => {
   const newPlaySong = soundList.filter(song => song.name === e.target.value);
   setPlaySound(newPlaySong)
-  console.log(newPlaySong)
 }
 
   return (
